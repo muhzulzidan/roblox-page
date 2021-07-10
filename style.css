@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: calc(100vw - 20vw);
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+}
+
+header h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  padding-right: 1em;
+  margin-right: .5em;
+}
+
+header ul li:hover {
+  border-bottom: 1px solid #CF755A;
+}
+
+header .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .icon svg {
+  margin-right: 1em;
+}
+
+main {
+  overflow: hidden;
+}
+
+main .post-container {
+  padding: 0em 5em;
+}
+
+main .post-container .posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1em;
+}
+
+main .post-container .posts .post1,
+main .post-container .posts .post2 {
+  margin-right: 2em;
+}
+
+main .post-container .posts .post1 h3, main .post-container .posts .post2 h3, main .post-container .posts .post3 h3 {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 3em;
+}
+
+main .post-container .posts .post1 p:first-of-type, main .post-container .posts .post2 p:first-of-type, main .post-container .posts .post3 p:first-of-type {
+  padding: 1em 0em;
+  font-weight: 900;
+  font-size: .9em;
+  letter-spacing: .4px;
+}
+
+main .post-container .posts .post1 p:last-of-type, main .post-container .posts .post2 p:last-of-type, main .post-container .posts .post3 p:last-of-type {
+  font-family: 'Source Serif Pro', serif;
+  color: #737373;
+  font-size: 1.2em;
+  line-height: 2;
+}
+
+main .post-container .posts div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 600px;
+}
+
+main .product-container .posts {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .product-container .posts .post1 {
+  width: 450px;
+  margin: 0;
+}
+
+main img.hero {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+}
+
+main h2 {
+  padding: 2em 1em;
+  padding-bottom: 3em;
+  color: #CF755A;
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2em;
+}
+
+.sub {
+  background-color: #D8D5BF;
+  padding: 5em 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub h2 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.sub button {
+  background-color: #CF755A;
+  padding: 1em 3em;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1em;
+  border: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10em;
+  background-color: #AEC1BA;
+}
+/*# sourceMappingURL=style.css.map */
