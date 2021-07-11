@@ -29,12 +29,12 @@ blockquote, q {
 }
 
 blockquote:before, blockquote:after {
-  content: '';
+  content: "";
   content: none;
 }
 
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -44,61 +44,44 @@ table {
 }
 
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: calc(100vw - 20vw);
   margin: 0 auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 1em;
 }
-
 header h1 {
   font-size: 1.5em;
   font-weight: 700;
 }
-
 header a {
   color: black;
   text-decoration: none;
 }
-
 header .burger {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 header .list {
   display: none;
 }
-
 header ul {
   list-style: none;
 }
-
 header ul li {
   padding-right: 1em;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
-
 header ul li:hover {
   border-bottom: 1px solid #CF755A;
 }
-
 header .icon {
   display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 header .icon svg {
   margin-right: 1em;
 }
@@ -106,114 +89,74 @@ header .icon svg {
 main {
   overflow: hidden;
 }
-
 main .post-container {
   padding: 0em 1em;
 }
-
 main .post-container .posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-bottom: 1em;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-
 main .post-container .posts .post1,
 main .post-container .posts .post2 {
   margin-right: 2em;
 }
-
 main .post-container .posts .post1 h3, main .post-container .posts .post2 h3, main .post-container .posts .post3 h3 {
   font-size: 1.5em;
   font-weight: 800;
   margin-bottom: 3em;
 }
-
 main .post-container .posts .post1 p:first-of-type, main .post-container .posts .post2 p:first-of-type, main .post-container .posts .post3 p:first-of-type {
   padding: 1em 0em;
   font-weight: 900;
-  font-size: .9em;
-  letter-spacing: .4px;
+  font-size: 0.9em;
+  letter-spacing: 0.4px;
 }
-
 main .post-container .posts .post1 p:last-of-type, main .post-container .posts .post2 p:last-of-type, main .post-container .posts .post3 p:last-of-type {
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Source Serif Pro", serif;
   color: #737373;
   font-size: 1.2em;
   line-height: 2;
 }
-
 main .post-container .posts div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 90vw;
 }
-
 main .product-container .posts {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 main .product-container .posts .post1 {
   width: 90vw;
   margin: 0;
 }
-
 main img.hero {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
-
 main h2 {
   padding: 1em 0em;
   color: #CF755A;
   font-weight: 800;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-size: 2em;
 }
 
 .sub {
   background-color: #D8D5BF;
   padding: 5em 10em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
-
 .sub h2 {
   font-size: 2em;
   font-weight: 900;
   padding-bottom: 1em;
 }
-
 .sub a {
   text-decoration: none;
   background-color: #CF755A;
@@ -226,34 +169,23 @@ main h2 {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   padding: 2em;
   background-color: #AEC1BA;
 }
-
 footer h4 {
   font-size: 2em;
   font-weight: 800;
   padding-bottom: 1em;
 }
-
 footer p {
-  opacity: .8;
+  opacity: 0.8;
 }
-
 footer .icon {
   padding-bottom: 5em;
 }
-
 footer .icon svg {
   border-radius: 50%;
   background-color: #CF755A;
@@ -266,29 +198,22 @@ footer .icon svg {
     display: none;
   }
   header .list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   header .icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
+
   .sub {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .sub h2 {
     padding: 0em;
   }
+
   main h2 {
     padding: 2em 1em;
     padding-bottom: 3em;
@@ -297,12 +222,8 @@ footer .icon svg {
     padding: 0em 5em;
   }
   main .post-container .posts {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
   main .post-container .posts div {
     width: 600px;
@@ -313,8 +234,8 @@ footer .icon svg {
   main .product-container .posts .post1 {
     width: 450px;
   }
+
   footer {
     padding: 10em;
   }
 }
-/*# sourceMappingURL=style.css.map */

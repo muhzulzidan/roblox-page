@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roblox-page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./popUp.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -14,7 +15,7 @@
 <body>
     <header>
         <a href="/"><h1>ALL ROBLOX</h1></a>
-        <ul>
+        <ul class="list">
             <li><a href="$">Blog</li></a>
             <li><a href="$">About</li></a>
             <li><a href="$">Contact</li></a>
@@ -33,6 +34,38 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect width="24" height="24" fill="#fcfcfc" opacity="0"/><g transform="translate(2 2)"><path d="M16,8a6,6,0,0,1,6,6v7H18V14a2,2,0,0,0-4,0v7H10V14A6,6,0,0,1,16,8Z" transform="translate(-2 -2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect width="4" height="12" transform="translate(0 7)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="2" cy="2" r="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></svg>
             </a>
         </div>
+                <a href="#headerPop" id="Burger" class="burger">
+                    <svg viewBox="0 0 100 80" width="20" height="30">
+                        <rect width="100" height="10"></rect>
+                        <rect y="30" width="100" height="10"></rect>
+                        <rect y="60" width="100" height="10"></rect>
+                    </svg>
+                </a>
+                <div id="headerPop" class="overlay modalOverlay">
+                    <div class="popup modal">
+                        <a class="close" href="#">
+                            <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M70.6731 1.26526L0.870483 71.0678" stroke="black" stroke-width="12" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M0.870483 1.26526L70.6731 71.0678" stroke="black" stroke-width="12" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <div class="content">
+                            <div class="right">
+                                <a href="/">
+                                    <h2>ALL ROBLOX</h1>
+                                </a>
+                                <ul>
+                                    <li><a href="$">Blog</li></a>
+                                    <li><a href="$">About</li></a>
+                                    <li><a href="$">Contact</li></a>
+                                </ul>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
     </header>
     <main>
         <img src="./assets/png/Hero.png" alt="hero" class="hero">
@@ -70,7 +103,7 @@
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia in deserunt mollit anim id est sint laborum.</p>
                     </div>
                     <div class="post2">
-                        <img src="./assets/png/image-1.png" alt="">
+                        <img src="./assets/png/Image-1.png" alt="">
                         <p>Category Name  |  Date</p>
                         <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia in deserunt mollit anim id est sint laborum.</p>
@@ -87,13 +120,13 @@
                 <h2>Careers at Roblox?</h2>
                 <div class="posts">
                     <div class="post1">
-                        <img src="./assets/png/image.png" alt="">
+                        <img src="./assets/png/Image.png" alt="">
                         <p>Category Name  |  Date</p>
                         <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia in deserunt mollit anim id est sint laborum.</p>
                     </div>
                     <div class="post2">
-                        <img src="./assets/png/image-8.png" alt="">
+                        <img src="./assets/png/Image-8.png" alt="">
                         <p>Category Name  |  Date</p>
                         <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia in deserunt mollit anim id est sint laborum.</p>
@@ -110,13 +143,13 @@
                 <h2>Academic Roadmap Technical FIelds</h2>
                 <div class="posts">
                     <div class="post1">
-                        <img src="./assets/png/image.png" alt="">
+                        <img src="./assets/png/Image.png" alt="">
                         <p>Category Name  |  Date</p>
                         <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia in deserunt mollit anim id est sint laborum.</p>
                     </div>
                     <div class="post2">
-                        <img src="./assets/png/image-8.png" alt="">
+                        <img src="./assets/png/Image-8.png" alt="">
                         <p>Category Name  |  Date</p>
                         <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia in deserunt mollit anim id est sint laborum.</p>
@@ -133,13 +166,13 @@
                 <h2>Roblox Social Media Advertising</h2>
                 <div class="posts">
                     <div class="post1">
-                        <img src="./assets/png/image-8.png" alt="">
+                        <img src="./assets/png/Image-8.png" alt="">
                         <p>Category Name  |  Date</p>
                         <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia in deserunt mollit anim id est sint laborum.</p>
                     </div>
                     <div class="post2">
-                        <img src="./assets/png/image-9.png" alt="">
+                        <img src="./assets/png/Image-9.png" alt="">
                         <p>Category Name  |  Date</p>
                         <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia in deserunt mollit anim id est sint laborum.</p>
@@ -165,23 +198,105 @@
             </div>
         </div>
     </main>
-    <div class="sub">
+    <div class="sub" id="sub">
         <h2>Subscribe to our weekly newsletter</h2>
-        <button>Subscribe</button>
+        <a href="#popup1">Subscribe</a>
+        <div id="popup1" class="overlay">
+        <div class="popup">
+            <a class="close" href="#sub">
+                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M70.6731 1.26526L0.870483 71.0678" stroke="white" stroke-width="12" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M0.870483 1.26526L70.6731 71.0678" stroke="white" stroke-width="12" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </a>
+            <div class="content">
+                <div class="left">
+                    <svg width="254" height="412" viewBox="0 0 254 412" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M96.5939 63.3444C100.95 63.8002 105.322 62.6405 108.879 60.0854C112.397 57.533 115.389 54.3241 117.689 50.6354C121.739 44.5271 124.659 37.7415 126.311 30.6014C127.676 32.2423 129.463 33.48 131.479 34.1814C133.496 34.8828 135.665 35.0214 137.754 34.5824C144.57 33.0524 148.654 25.0994 147.329 18.2404C146.004 11.3814 140.373 5.94035 133.952 3.19235C127.531 0.44435 120.375 -0.0146509 113.389 0.00034913C108.782 0.0103491 104.089 0.225357 99.7609 1.80536C95.4329 3.38536 91.4698 6.53436 89.9318 10.8764C88.9678 13.5994 88.9999 16.6124 87.9039 19.2844C85.9149 24.1354 80.7549 26.7844 75.9119 28.7944C71.0689 30.8044 65.8049 32.8454 62.9489 37.2424C59.7239 42.2074 60.6549 49.1424 64.2089 53.8734C67.7629 58.6044 73.4699 61.3554 79.2789 62.5034C85.0879 63.6514 91.0709 63.3674 96.9849 63.0794"
+                            fill="#CF755A" />
+                        <path d="M43.7259 375.273L24.6409 366.998L34.9969 345.684L50.4099 354.704L43.7259 375.273Z" fill="#737373" />
+                        <path
+                            d="M114.327 265.986L95.8939 303.477L63.3659 369.65L29.8279 353.534L66.8499 266.857L66.9499 255.946L67.2809 221.994L114.327 265.986Z"
+                            fill="black" />
+                        <path d="M166.595 358.325L146.995 365.294L140.026 342.645L157.448 338.726L166.595 358.325Z" fill="#737373" />
+                        <path
+                            d="M162.239 161.116L103.003 144.129L120.425 132.369L166.154 146.743L186.834 151.706C188.295 152.057 189.661 152.725 190.834 153.664C192.007 154.603 192.959 155.789 193.622 157.138C194.284 158.486 194.641 159.964 194.667 161.467C194.693 162.969 194.387 164.459 193.772 165.829C193.194 167.116 192.356 168.269 191.311 169.217C190.266 170.164 189.036 170.884 187.698 171.333C186.361 171.781 184.945 171.948 183.54 171.823C182.135 171.697 180.772 171.283 179.535 170.604L162.239 161.116Z"
+                            fill="#737373" />
+                        <path
+                            d="M124.345 132.829L100.389 146.767C98.2749 129.336 108.697 98.3083 121.731 64.4464C125.548 67.2103 128.543 70.9581 130.398 75.2902C132.254 79.6223 132.899 84.3766 132.265 89.0464L124.345 132.829Z"
+                            fill="white" />
+                        <path
+                            d="M21.1169 167.65L20.6169 185.529C20.573 187.086 20.1771 188.612 19.4592 189.993C18.7413 191.375 17.7198 192.576 16.4715 193.506C15.2231 194.436 13.7804 195.072 12.2514 195.365C10.7223 195.658 9.14679 195.601 7.64291 195.198C6.19454 194.81 4.8482 194.111 3.69778 193.149C2.54737 192.188 1.62052 190.987 0.981902 189.63C0.34328 188.273 0.0082755 186.794 0.000151367 185.294C-0.00797277 183.795 0.311022 182.312 0.934905 180.948L7.61789 166.348L28.5249 116.694L42.8989 121.921L21.1169 167.65Z"
+                            fill="#737373" />
+                        <path
+                            d="M118.465 46.8364C128.809 46.8364 137.194 38.4511 137.194 28.1074C137.194 17.7636 128.809 9.37836 118.465 9.37836C108.121 9.37836 99.7359 17.7636 99.7359 28.1074C99.7359 38.4511 108.121 46.8364 118.465 46.8364Z"
+                            fill="#737373" />
+                        <path d="M117.812 67.5263L96.0339 57.0733L106.922 32.6813L125.216 36.1663L117.812 67.5263Z" fill="#737373" />
+                        <path
+                            d="M103.873 155.943L59.4459 145.054L68.3669 63.2763C68.776 59.5289 70.6397 56.0917 73.5571 53.7042C76.4745 51.3168 80.2125 50.17 83.9669 50.5103L98.6429 51.8443L118.679 60.9913L126.079 68.8313L123.82 78.4933C125.926 98.3933 124.303 115.662 112.732 125.91L103.873 155.943Z"
+                            fill="white" />
+                        <path
+                            d="M47.2509 125.02L24.1659 118.92L55.1148 67.6603C58.3633 62.2801 63.0761 57.9356 68.7023 55.1347C74.3285 52.3338 80.6358 51.1922 86.8869 51.8434L75.1269 90.6083C64.2539 98.8163 55.1149 110.609 47.2509 125.02Z"
+                            fill="white" />
+                        <path
+                            d="M167.465 340.905L132.185 351.358C89.2239 281.611 27.7059 206.449 51.6059 156.224L60.3169 135.753L105.617 149.691L108.23 203.701L136.106 247.256L167.465 340.905Z"
+                            fill="black" />
+                        <path
+                            d="M184.776 388.325L153.422 388.017C150.439 387.998 147.586 386.799 145.484 384.683C143.382 382.567 142.202 379.706 142.202 376.723V361.093C142.199 360.527 142.329 359.969 142.583 359.463C142.836 358.957 143.205 358.518 143.66 358.181C144.115 357.844 144.643 357.62 145.201 357.525C145.759 357.431 146.332 357.469 146.872 357.637C152.535 359.453 157.172 358.848 160.672 355.557C162.772 353.584 163.013 353.188 165.508 354.623L179.664 370.085L185.405 370.455C187.557 370.594 189.587 371.506 191.12 373.023C192.653 374.54 193.586 376.561 193.748 378.711C193.84 379.943 193.677 381.18 193.267 382.346C192.858 383.511 192.211 384.579 191.369 385.482C190.526 386.385 189.505 387.104 188.371 387.593C187.237 388.082 186.014 388.331 184.779 388.324L184.776 388.325Z"
+                            fill="#CF755A" />
+                        <path
+                            d="M36.3179 409.345L14.3649 386.957C12.2699 384.835 11.0996 381.969 11.1094 378.987C11.1191 376.005 12.3081 373.147 14.4169 371.038L25.4698 359.981C25.8679 359.579 26.3552 359.276 26.8922 359.098C27.4292 358.919 28.0008 358.869 28.5605 358.953C29.1202 359.037 29.6523 359.251 30.1137 359.579C30.5751 359.906 30.9527 360.338 31.2159 360.839C33.9369 366.128 37.6429 368.979 42.4429 369.124C45.3199 369.211 45.7739 369.104 46.5229 371.883L45.5989 392.826L49.3989 397.147C50.8228 398.768 51.6131 400.848 51.6243 403.005C51.6355 405.162 50.8669 407.25 49.4599 408.885C48.6543 409.821 47.6635 410.581 46.55 411.115C45.4365 411.649 44.2243 411.947 42.99 411.99C41.7556 412.033 40.5259 411.819 39.3781 411.363C38.2302 410.907 37.1893 410.219 36.3209 409.34L36.3179 409.345Z"
+                            fill="#CF755A" />
+                        <path
+                            d="M117.709 23.7343C120.274 27.8142 124.084 30.9592 128.577 32.7033C131.759 33.9283 135.796 34.2333 138.184 31.8033C139.914 30.0403 140.259 27.3273 140.013 24.8703C139.247 17.1993 133.481 10.5193 126.328 7.64534C119.175 4.77134 110.916 5.39934 103.777 8.30934C97.0408 11.0553 90.6438 16.6793 90.2818 23.9443C90.0958 27.6673 91.4438 31.7663 89.4458 34.9133C87.9408 37.2833 85.0338 38.2463 82.4298 39.2953C79.8258 40.3443 77.0299 42.0003 76.4969 44.7573C76.3669 45.7055 76.4614 46.6709 76.7729 47.5759C77.0843 48.4808 77.6039 49.3 78.2898 49.9673C79.6743 51.2895 81.3127 52.3169 83.1059 52.9873C87.3529 54.7953 92.0268 55.9223 96.5888 55.2233C101.151 54.5243 105.563 51.7463 107.348 47.4903C108.723 44.2123 108.441 40.5143 108.283 36.9633C108.125 33.4123 108.172 29.6313 110.068 26.6243C111.964 23.6173 116.368 21.9343 119.199 24.0813"
+                            fill="#CF755A" />
+                        <path
+                            d="M230.254 96.0995L174.938 111.961C174.517 112.081 174.147 112.334 173.881 112.681C173.615 113.029 173.468 113.453 173.462 113.89C173.455 114.327 173.59 114.755 173.846 115.11C174.101 115.465 174.465 115.728 174.882 115.861L207.825 126.368C208.208 126.491 208.619 126.497 209.006 126.386C209.393 126.275 209.738 126.052 209.998 125.745L232.368 99.3767C232.651 99.0434 232.82 98.6278 232.848 98.1913C232.877 97.7548 232.765 97.3207 232.528 96.9531C232.29 96.5855 231.941 96.304 231.532 96.1503C231.122 95.9966 230.674 95.9787 230.254 96.0995Z"
+                            fill="black" />
+                        <path
+                            d="M237.56 98.1971L211.059 129.437C210.799 129.743 210.453 129.966 210.067 130.077C209.68 130.188 209.269 130.182 208.886 130.06L169.856 117.611C169.505 117.499 169.13 117.484 168.771 117.569C168.412 117.653 168.082 117.834 167.818 118.091C167.553 118.348 167.363 118.672 167.268 119.028C167.173 119.384 167.177 119.76 167.278 120.114L179.244 161.845C179.318 162.102 179.442 162.342 179.608 162.552C179.775 162.761 179.981 162.936 180.215 163.066C180.449 163.195 180.707 163.278 180.973 163.308C181.239 163.338 181.508 163.316 181.765 163.242L251.642 143.205C251.9 143.131 252.14 143.008 252.349 142.841C252.559 142.675 252.734 142.468 252.863 142.234C252.993 142 253.075 141.743 253.106 141.477C253.136 141.211 253.113 140.941 253.039 140.684L241.074 98.9539C240.972 98.5992 240.776 98.2787 240.506 98.0267C240.237 97.7746 239.904 97.6004 239.543 97.5227C239.183 97.4451 238.808 97.4667 238.458 97.5855C238.109 97.7043 237.798 97.9157 237.56 98.1971Z"
+                            fill="black" />
+                    </svg>
+                </div>
+                <div class="right">
+                    <h2>Subscribe</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus
+                    error sit voluptatem accusantium doloremque
+                    laudantium, totam rem aperiam, eaque ipsa</p>
+                    <form action="">
+                        <input type="email" name="email" id="email" placeholder="Your email...">                        
+                        <button type="submit">
+                            <svg width="119" height="119" viewBox="0 0 119 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M117.34 1L53.3519 64.988" stroke="#FCFCFC" stroke-width="12" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M117.333 1L76.6171 117.333L53.3519 64.9811L1 41.7158L117.333 1Z" stroke="#FCFCFC" stroke-width="12"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        </div>
     </div>
     <footer>
         <div class="icon">
             <a href="fb">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="translate(-0.38)"><rect width="24" height="24" transform="translate(0.38)" fill="#fcfcfc" opacity="0"/><g transform="translate(7 2)"><path d="M18,2H15a5,5,0,0,0-5,5v3H7v4h3v8h4V14h3l1-4H14V7a1,1,0,0,1,1-1h3Z" transform="translate(-7 -2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="translate(-0.38)"><rect width="24" height="24" transform="translate(0.38)" fill="#fcfcfc" opacity="0"/><g transform="translate(7 2)"><path d="M18,2H15a5,5,0,0,0-5,5v3H7v4h3v8h4V14h3l1-4H14V7a1,1,0,0,1,1-1h3Z" transform="translate(-7 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></g></svg>
             </a>
             <a href="twitter">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24.023" height="24" viewBox="0 0 24.023 24"><rect width="24" height="24" transform="translate(0.023)" fill="#fcfcfc" opacity="0"/><g transform="translate(1 2.99)"><path d="M23,3a10.921,10.921,0,0,1-3.14,1.53,4.48,4.48,0,0,0-7.86,3v1A10.659,10.659,0,0,1,3,4s-4,9,5,13a11.639,11.639,0,0,1-7,2c9,5,20,0,20-11.5a4.532,4.532,0,0,0-.08-.83A7.716,7.716,0,0,0,23,3Z" transform="translate(-1 -2.99)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24.023" height="24" viewBox="0 0 24.023 24"><rect width="24" height="24" transform="translate(0.023)" fill="#fcfcfc" opacity="0"/><g transform="translate(1 2.99)"><path d="M23,3a10.921,10.921,0,0,1-3.14,1.53,4.48,4.48,0,0,0-7.86,3v1A10.659,10.659,0,0,1,3,4s-4,9,5,13a11.639,11.639,0,0,1-7,2c9,5,20,0,20-11.5a4.532,4.532,0,0,0-.08-.83A7.716,7.716,0,0,0,23,3Z" transform="translate(-1 -2.99)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></svg>
             </a>
             <a href="instagram">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="translate(0)"><rect width="24" height="24" transform="translate(0)" fill="#fcfcfc" opacity="0"/><g transform="translate(2 2)"><rect width="20" height="20" rx="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M16,11.37A4,4,0,1,1,12.63,8,4,4,0,0,1,16,11.37Z" transform="translate(-2 -2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x2="0.01" transform="translate(15.5 4.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g transform="translate(0)"><rect width="24" height="24" transform="translate(0)" fill="#fcfcfc" opacity="0"/><g transform="translate(2 2)"><rect width="20" height="20" rx="5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M16,11.37A4,4,0,1,1,12.63,8,4,4,0,0,1,16,11.37Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x2="0.01" transform="translate(15.5 4.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></g></svg>
             </a>
             <a href="in">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect width="24" height="24" fill="#fcfcfc" opacity="0"/><g transform="translate(2 2)"><path d="M16,8a6,6,0,0,1,6,6v7H18V14a2,2,0,0,0-4,0v7H10V14A6,6,0,0,1,16,8Z" transform="translate(-2 -2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect width="4" height="12" transform="translate(0 7)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="2" cy="2" r="2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect width="24" height="24" fill="#fcfcfc" opacity="0"/><g transform="translate(2 2)"><path d="M16,8a6,6,0,0,1,6,6v7H18V14a2,2,0,0,0-4,0v7H10V14A6,6,0,0,1,16,8Z" transform="translate(-2 -2)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect width="4" height="12" transform="translate(0 7)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="2" cy="2" r="2" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></svg>
             </a>
             <a href="mail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><g transform="translate(0 0.136)"><rect width="20" height="20" transform="translate(0 -0.136)" fill="rgba(253,73,198,0.35)" opacity="0"/><g transform="translate(1.667 3.333)"><path d="M3.333,3.333H16.667A1.671,1.671,0,0,1,18.333,5V15a1.671,1.671,0,0,1-1.666,1.667H3.333A1.671,1.671,0,0,1,1.667,15V5A1.671,1.671,0,0,1,3.333,3.333Z" transform="translate(-1.667 -3.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/><path d="M18.333,5,10,10.833,1.667,5" transform="translate(-1.667 -3.333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/></g></g></svg>
