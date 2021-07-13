@@ -124,12 +124,20 @@ main .post-container .posts div {
   flex-direction: column;
   width: 90vw;
 }
-main .product-container .posts {
-  justify-content: center;
+main .social-container .posts {
+  word-break: break-all;
+  flex-wrap: wrap;
 }
-main .product-container .posts .post1 {
-  width: 90vw;
-  margin: 0;
+main .product-container img {
+  width: auto;
+}
+main .product-container .posts {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  word-break: break-all;
+}
+main .product-container .posts div {
+  width: 250px;
 }
 main img.hero {
   object-fit: cover;
@@ -231,8 +239,19 @@ footer .icon svg {
   main .post-container .posts .post1 {
     width: 450px;
   }
-  main .product-container .posts .post1 {
-    width: 450px;
+  main .social-container .posts {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  main .product-container img {
+    width: auto;
+  }
+  main .product-container .posts {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  main .product-container .posts div {
+    width: 500px;
   }
 
   footer {

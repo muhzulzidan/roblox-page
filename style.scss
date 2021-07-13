@@ -98,12 +98,23 @@ main {
         }
     }
 
-    .product-container {
+    .social-container{
         .posts{
-            justify-content: center;
-            .post1 {
-                width: 90vw;
-                margin: 0;
+            word-break: break-all;
+            flex-wrap: wrap;
+        }
+    }
+    .product-container{
+
+        img{
+            width: auto;
+        }
+        .posts{
+            flex-wrap: wrap;
+            justify-content: space-around;
+            word-break: break-all;
+            div{
+                width: 250px;
             }
         }
     }
@@ -214,10 +225,22 @@ footer{
                 
             }        
         }
-        .product-container {
-            .posts {
-                .post1 {
-                    width: 450px;
+        .social-container{
+            .posts{
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+        }
+        .product-container{
+    
+            img{
+                width: auto;
+            }
+            .posts{
+                flex-wrap: wrap;
+                justify-content: space-around;
+                div{
+                    width: 500px;
                 }
             }
         }
